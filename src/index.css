@@ -1,0 +1,111 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Raleway", sans-serif;
+}
+
+.App {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+form {
+   width: 500px;
+   height: 500px;
+   background: rgb(131, 58, 180);
+   background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+   );
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form-inner {
+   background-color: #fff;
+   width: 480px;
+   height: 480px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.form-inner h2 {
+   margin-bottom: 50px;
+   text-transform: uppercase;
+}
+
+.form-group {
+   text-align: left;
+}
+.form-group label {
+   display: block;
+}
+.form-group input {
+   outline: none;
+   padding: 4px 0;
+   margin-bottom: 4px;
+}
+.submitBtn {
+   margin-top: 24px;
+   width: 80px;
+   padding: 8px;
+   text-align: center;
+   border: none;
+   outline: none;
+   background-color: rgb(134, 48, 168);
+   display: block;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.error {
+   color: red;
+   margin-bottom: 16px;
+}
+.welcome {
+   width: 500px;
+   height: 500px;
+   background: rgb(131, 58, 180);
+   background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+   );
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.welcome-box {
+   width: 450px;
+   height: 450px;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.welcome span {
+   font-size: 24px;
+   padding: 16px 0;
+}
+.welcome button {
+   margin-top: 24px;
+   width: 80px;
+   padding: 8px;
+   text-align: center;
+   border: none;
+   outline: none;
+   background-color: rgb(134, 48, 168);
+   display: block;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+}
